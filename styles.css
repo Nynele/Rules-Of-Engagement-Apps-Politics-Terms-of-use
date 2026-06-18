@@ -72,3 +72,22 @@ li {
 .page-links a {
     margin-right: 1.5rem;
 }
+
+.discord-mention {
+    background-color: rgba(88, 101, 242, 0.15);
+    color: #c9cdfb;
+    font-weight: bold;
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.discord-mention:hover {
+    background-color: #5865f2;
+    color: #ffffff;
+    text-decoration: none;
+}
+
